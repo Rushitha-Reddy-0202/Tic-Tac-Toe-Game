@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 5px;
+}
+body{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: black;
+    background-color: rgba(216, 112, 147, 0.534);
+}
+.page{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game
+{
+    height: 61.6vmin;
+    width: 61.6vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8vmin;
+}
+.box{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 1rem;
+    border: none;
+    color: black;
+    background-image: url("tic.png");
+    font-size: 10vmin;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset{
+    background-color: rgb(141, 198, 240);
+    color: rgb(0, 0, 0);
+    height: 35px;
+    width: 70px;
+    border: black;
+    font-size: 16px;
+    border-radius: 0.5rem;
+}
+.msg{
+    font-size: 7vmin;
+}
+.new{
+    background-color: rgb(141, 198, 240);
+    color: rgb(0, 0, 0);
+    height: 35px;
+    width: 100px;
+    border: black;
+    font-size: 16px;
+    border-radius: 0.5rem;
+}
+.msgs{
+    height: 15vmin;
+}
+.hide{
+  display: none;
+}
