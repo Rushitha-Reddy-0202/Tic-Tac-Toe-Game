@@ -32,8 +32,8 @@ play.forEach((box) => {
 }
 );
 const show = (winneris) => {
-    // msg2.innerText = `Congratulations, Winner is ${winneris}`;
-    // msg1.classList.remove("hide");
+    msg2.innerText = `Congratulations, Winner is ${winneris}`;
+    msg1.classList.remove("hide");
     
 };
 const winner = () => {
