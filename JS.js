@@ -63,11 +63,13 @@ const winner = () => {
         show1();
     }
 };
+
 const disableboxes = () => {
     play.forEach((i) => {
         i.disabled = true;
     });
 };
+
 const enableboxes = () => {
     play.forEach((i) => {
         i.disabled = false;
