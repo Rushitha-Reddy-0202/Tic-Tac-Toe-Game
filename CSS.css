@@ -10,6 +10,10 @@ h1{
     color: black;
     background-color: rgba(216, 112, 147, 0.534);
 }
+h2{
+    text-align: center;
+    font-style: italic;
+}
 .page{
     height: 70vh;
     display: flex;
@@ -53,7 +57,7 @@ h1{
 .msg{
     font-size: 7vmin;
 }
-.new{
+.plays{
     background-color: rgb(141, 198, 240);
     color: rgb(0, 0, 0);
     height: 35px;
@@ -63,7 +67,13 @@ h1{
     border-radius: 0.5rem;
 }
 .msgs{
-    height: 15vmin;
+    height: 100vmin;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
 }
 .hide{
   display: none;
